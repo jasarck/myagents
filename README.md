@@ -2,12 +2,15 @@ Tools
 ------
 VS Code
 python notebook
-
+git
+uv- package manager
 cursor
 chatGPT
 
-perplexity -Lab Keys used to connect models.
+## Models used :
 
+perplexity -Lab Keys used to connect models.
+Gemini 
 #1. Foundation 
 
 Here we are simply connecitng to Model and printing the out-put 
