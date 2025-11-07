@@ -17,7 +17,7 @@ print(openai)
 print(googleai)
 
 print("-------------------PERPLEXITY----------------------")
-messages = [{"role": "user", "content": "why I learn Agentic AI ?"}]
+messages = [{"role": "user", "content": "What is the capital of France?"}]
 print(messages)
 
 MODEL = "sonar"
@@ -37,4 +37,11 @@ response = googleai.chat.completions.create(
     ]
 )
 
-print(response.choices[0].message.content)
+# print(response.choices[0].message.content)
+
+
+# image = googleai.images.generate(
+#     model="gemini-2.5-flash",
+#     prompt="A cute robot reading a book under a tree"
+# )
+# print(image.data[0].url)
